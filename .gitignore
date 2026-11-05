@@ -1,0 +1,88 @@
+# ==============================================================================
+# Byte-compiled / optimized / DLL files (Python Caches)
+# ==============================================================================
+__pycache__/
+**/__pycache__/
+**/__pycache__/**
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+
+# C extension files
+*.so
+
+# ==============================================================================
+# Virtual Environments & Packages
+# ==============================================================================
+.venv/
+**/.venv/
+**/.venv/**
+venv/
+**/venv/
+**/venv/**
+ENV/
+env/
+env.bak/
+venv.bak/
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==============================================================================
+# Jupyter Notebook Checkpoints
+# ==============================================================================
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+**/.ipynb_checkpoints/**
+*/.ipynb_checkpoints/*
+
+# ==============================================================================
+# IDEs and Text Editors (JetBrains, VSCode, OS-specific)
+# ==============================================================================
+.idea/
+**/.idea/
+**/.idea/**
+.vscode/
+**/.vscode/
+**/.vscode/**
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# ==============================================================================
+# Logs, Databases & Runtime Files
+# ==============================================================================
+*.log
+*.sqlite3
+
+# ==============================================================================
+# Large raw data dumps (only sample test_run.jsonl is tracked)
+# ==============================================================================
+data/raw/*.dump
+data/raw/*.bin
+data/raw/*.tar.gz
+data/raw/*.zip
+submission*.zip
+*.zip
